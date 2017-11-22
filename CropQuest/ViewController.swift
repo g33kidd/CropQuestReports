@@ -17,6 +17,10 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var signInBtn: UIButton!
     
+    override func viewWillAppear(_ animated: Bool) {
+        
+    }
+    
     // Setup OAuth configuration.
 //    let oauth2 = OAuth2CodeGrant(settings: [
 //        "client_id": "4bc0217f8c16c52f3eb59d9ff2393508aa060e3cc8adb9367908e7d4038f9478",

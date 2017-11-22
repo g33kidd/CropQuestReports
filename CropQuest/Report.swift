@@ -7,3 +7,13 @@
 //
 
 import Foundation
+import Alamofire
+//import SwiftyJSON
+
+class Report {
+    var id: String?
+    var report_type_id: String?
+    var name: String?
+    var start_date: String?
+    
+}

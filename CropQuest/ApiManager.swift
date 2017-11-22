@@ -64,6 +64,7 @@ class ApiManager {
                 let json = result as! NSDictionary
                 let token = json.value(forKey: "access_token")
                 print(json)
+                print(token!)
             }
         }
     }

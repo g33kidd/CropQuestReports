@@ -1,0 +1,27 @@
+{
+  "Mac" : [
+    {
+      "name" : "Locksmith",
+      "hash" : "9c9429f05724877320bec4220254861ef183c764c95df45eca278c3172e83eec"
+    }
+  ],
+  "watchOS" : [
+    {
+      "name" : "Locksmith",
+      "hash" : "8d291864df39f1240ae4aa13007f4ee11a6b6c634ca9b6f096a1167f35aac869"
+    }
+  ],
+  "tvOS" : [
+    {
+      "name" : "Locksmith",
+      "hash" : "e8b46d5f66686d65703d2c422c9661349018e174f41d6964d6fbd77d7408d7ac"
+    }
+  ],
+  "commitish" : "3.0.0",
+  "iOS" : [
+    {
+      "name" : "Locksmith",
+      "hash" : "b13a9edad9bd0a980283d43324b24779d17b8265a00cb67fe147d4a710519df8"
+    }
+  ]
+}

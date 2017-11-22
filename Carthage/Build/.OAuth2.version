@@ -2,7 +2,7 @@
   "Mac" : [
     {
       "name" : "OAuth2",
-      "hash" : "f7977832c7ad8ba96e38555f69c62c2145bc3769e79a767550de2cf835574704"
+      "hash" : "50a1c531d5d33b1499aa90cfff798a36e68fedc0b14fcfca922e0fb0c3ad95f6"
     }
   ],
   "watchOS" : [
@@ -11,14 +11,14 @@
   "tvOS" : [
     {
       "name" : "OAuth2",
-      "hash" : "24b9ad088e3764c60b766ddc850f8656a9fe98b64b44b8f6faef2e67fbd34357"
+      "hash" : "babb217e58290aefc2d9efefbedd0a80fa71d300ca2ab2fd8cc017e3529bd44e"
     }
   ],
   "commitish" : "3.0.3",
   "iOS" : [
     {
       "name" : "OAuth2",
-      "hash" : "6a56070b6f1ed85b7dbc327ad6712e45b7f85a45de0dde68d621056999859e62"
+      "hash" : "1c7bc17dc6e77f80f9a1fe296cd21e8db173386265b2229a5bcee66ebaaae5bc"
     }
   ]
 }

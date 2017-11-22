@@ -34,5 +34,16 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>reportsoauth</string>
+			</array>
+			<key>CFBundleURLName</key>
+			<string>com.g33kidd.CropQuest</string>
+		</dict>
+	</array>
 </dict>
 </plist>

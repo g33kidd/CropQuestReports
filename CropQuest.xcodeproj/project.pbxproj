@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9242A9831FC3BB8900B5513C /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9242A9821FC3BB8900B5513C /* Alamofire.framework */; };
 		929CD2391FC3993000F45508 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929CD2381FC3993000F45508 /* AppDelegate.swift */; };
 		929CD23B1FC3993000F45508 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929CD23A1FC3993000F45508 /* ViewController.swift */; };
 		929CD23E1FC3993000F45508 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929CD23C1FC3993000F45508 /* Main.storyboard */; };
 		929CD2401FC3993000F45508 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 929CD23F1FC3993000F45508 /* Assets.xcassets */; };
 		929CD2431FC3993000F45508 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929CD2411FC3993000F45508 /* LaunchScreen.storyboard */; };
+		929CD25B1FC3A71C00F45508 /* OAuth2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929CD25A1FC3A71C00F45508 /* OAuth2.framework */; };
+		92E06B331FC4B7E800768536 /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E06B321FC4B7E800768536 /* Report.swift */; };
+		92E06B351FC4BBA300768536 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E06B341FC4BBA300768536 /* ApiManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9242A9821FC3BB8900B5513C /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		929CD2351FC3993000F45508 /* CropQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CropQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		929CD2381FC3993000F45508 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		929CD23A1FC3993000F45508 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,10 @@
 		929CD23F1FC3993000F45508 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		929CD2421FC3993000F45508 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		929CD2441FC3993000F45508 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		929CD25A1FC3A71C00F45508 /* OAuth2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OAuth2.framework; path = Carthage/Build/iOS/OAuth2.framework; sourceTree = "<group>"; };
+		92E06B321FC4B7E800768536 /* Report.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Report.swift; sourceTree = "<group>"; };
+		92E06B341FC4BBA300768536 /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		92E06B361FC4BE7900768536 /* CropQuest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CropQuest.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +38,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9242A9831FC3BB8900B5513C /* Alamofire.framework in Frameworks */,
+				929CD25B1FC3A71C00F45508 /* OAuth2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +51,7 @@
 			children = (
 				929CD2371FC3993000F45508 /* CropQuest */,
 				929CD2361FC3993000F45508 /* Products */,
+				929CD2591FC3A71C00F45508 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +66,26 @@
 		929CD2371FC3993000F45508 /* CropQuest */ = {
 			isa = PBXGroup;
 			children = (
+				92E06B361FC4BE7900768536 /* CropQuest.entitlements */,
 				929CD2381FC3993000F45508 /* AppDelegate.swift */,
 				929CD23A1FC3993000F45508 /* ViewController.swift */,
 				929CD23C1FC3993000F45508 /* Main.storyboard */,
 				929CD23F1FC3993000F45508 /* Assets.xcassets */,
 				929CD2411FC3993000F45508 /* LaunchScreen.storyboard */,
 				929CD2441FC3993000F45508 /* Info.plist */,
+				92E06B321FC4B7E800768536 /* Report.swift */,
+				92E06B341FC4BBA300768536 /* ApiManager.swift */,
 			);
 			path = CropQuest;
+			sourceTree = "<group>";
+		};
+		929CD2591FC3A71C00F45508 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9242A9821FC3BB8900B5513C /* Alamofire.framework */,
+				929CD25A1FC3A71C00F45508 /* OAuth2.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +98,7 @@
 				929CD2311FC3993000F45508 /* Sources */,
 				929CD2321FC3993000F45508 /* Frameworks */,
 				929CD2331FC3993000F45508 /* Resources */,
+				929CD25C1FC3A73400F45508 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -96,7 +121,13 @@
 				TargetAttributes = {
 					929CD2341FC3993000F45508 = {
 						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = JN32HF46GV;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -131,6 +162,26 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		929CD25C1FC3A73400F45508 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/OAuth2.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/OAuth2.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		929CD2311FC3993000F45508 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -138,6 +189,8 @@
 			files = (
 				929CD23B1FC3993000F45508 /* ViewController.swift in Sources */,
 				929CD2391FC3993000F45508 /* AppDelegate.swift in Sources */,
+				92E06B331FC4B7E800768536 /* Report.swift in Sources */,
+				92E06B351FC4BBA300768536 /* ApiManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +313,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CropQuest/CropQuest.entitlements;
+				DEVELOPMENT_TEAM = JN32HF46GV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = CropQuest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.g33kidd.CropQuest;
@@ -272,6 +331,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CropQuest/CropQuest.entitlements;
+				DEVELOPMENT_TEAM = JN32HF46GV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = CropQuest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.g33kidd.CropQuest;
@@ -299,6 +364,7 @@
 				929CD2491FC3993000F45508 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
